@@ -1,7 +1,8 @@
 import "./App.css";
+import CreateTodo from "./components/CreateTodo";
 
 function App() {
-  return <div className="text-red-500">Hi World!</div>;
+  return <CreateTodo />;
 }
 
 export default App;
