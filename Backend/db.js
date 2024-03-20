@@ -1,8 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(
-  "mongodb+srv://kirags123:8qPEa8KTKBEh2bss@cluter0.f3qlbuo.mongodb.net/todos",
-);
+mongoose.connect("mongodb+srv://mymongodb:*****@cluster0.1tzw9az.mongodb.net/");
 
 const todoSchema = mongoose.Schema({
   title: String,
